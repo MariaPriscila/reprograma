@@ -69,6 +69,3 @@ ax.set_ylabel('Porcentagem')
 ax.set_title('Suficiência de renda antes e após o curso {reprograma}')
 plt.savefig('grafico_barras_agrupadas.png', bbox_inches='tight')
 
-# Criação do arquivo com todos os dados
-df_dados = pd.concat([df_barras, df_pizza.drop(columns='Situação de emprego'), df_rosca.drop(columns='Emprego na área de TI'), df_barras_agrupadas])
-df_dados.to_csv('dados_reprograma.csv', index=False)
