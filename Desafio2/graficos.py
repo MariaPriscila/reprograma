@@ -19,7 +19,7 @@ dados_pizza = {
 dados_rosca = {
     'Emprego na área de TI': ['Na área de TI', 'Fora da área de TI', 'Desempregada'],
     'Antes do curso': [12, 54, 34],
-    'Após o curso': [72, 28, 0]
+    'Após o curso': [72, 20, 8]
 }
 
 # Dados para o gráfico de barras agrupadas
